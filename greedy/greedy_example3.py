@@ -1,3 +1,4 @@
+#1이 될 때까지 (2018 E 기업 알고리즘 대회 )
 N,K = map(int,input().split())
 cnt = 0
 
