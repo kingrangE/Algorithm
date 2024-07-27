@@ -26,7 +26,7 @@ stack = 0
 #방향별 Plan 설정 ((회전 후, 앞으로 갔을 때 좌표 변화 x,y),왼쪽 회전 했을 때의 방향 값)
 plans = [[-1,0,3],[0,-1,0],[1,0,1],[0,1,2]]
 while True:
-
+ 
     #지나간 자리이므로 1로 변경
     maps[x][y] = 1
     tmp_x,tmp_y,tmp_d = x+plans[d][0],y+plans[d][1],plans[d][2]
