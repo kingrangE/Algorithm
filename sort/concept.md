@@ -18,7 +18,7 @@
     - 따라서 근사치로 ${\frac{N(N+1)}{2}}$라고 할 수 있다.
     - 이것은 빅오 표기법에 의해 O(${N^2}$)와 같다.
 
-```
+```python
 #선택 정렬 코드
 import random
 n = 10
@@ -45,7 +45,7 @@ for i in range(n):
     - 반복문 2개를 사용하기에 선택정렬과 같은 O(${N^2}$) 시간 복잡도를 가진다.
     - 허나, 거의 정렬되어 있는 상태일 때는 매우 빠르게 동작하기에 최선의 경우 O(${N}$)이다.
     - 따라서 거의 정렬된 상태의 리스트를 정렬해야 하는 문제라면 삽입 정렬이 가장 빠를 가능성이 높다.
-```
+```python
 import random
 n = 10
 arr = [i for i in range(n)]
@@ -82,7 +82,7 @@ for i in range(1,n):
 
 - 퀵 정렬의 시간 복잡도 
     - O(${NlogN}$)
-```
+```python
 import random
 n = 10
 arr = [i for i in range(n)]
@@ -129,7 +129,7 @@ quick_sort(arr,0,len(array)-1)
         - 그러나 동일한 값을 가지는 데이터가 여러 개 등장할 때는 적합하다.
     - 따라서 데이터의 특성을 파악하기 어렵다면 퀵 정렬을 이용하는 것이 유리하다.
 
-```
+```python
 import random
 n = 10
 arr = [i for i in range(n)]
